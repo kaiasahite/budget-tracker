@@ -1,11 +1,15 @@
-const indexedDB = window.indexedDB;
+// const indexedDB = window.indexedDB;
 
 let db;
 const request = indexedDB.open("budget", 1);
+
+
 request.onupgradeneeded = ({ target }) => {
   let db = target.result;
   db.createObjectStore("pending", { autoIncrement: true });
 };
+
+
 request.onsuccess = ({ target }) => {
   db = target.result;
   if (navigator.onLine) {
