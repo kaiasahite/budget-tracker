@@ -1,5 +1,9 @@
 #budget-tracker
 
+*MINIGAME: The heroku deployed app does not function after a few seconds - see if you have the fastest fingers in the west, refresh to retry*
+
+DEPLOYED HERE: https://guarded-river-43306.herokuapp.com/
+
 
 
   ![image](https://user-images.githubusercontent.com/70611424/110231074-c3508c80-7ed2-11eb-9faf-86483836fb80.png)
